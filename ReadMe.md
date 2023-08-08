@@ -1,3 +1,3 @@
-# $safeprojectname$
+# Description
 
-A mod for the game Hollow Knight.
+Experimenting to learn how to mod through the game Hollow Knight! :D
