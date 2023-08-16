@@ -1,20 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <!-- Change this to the path of your modded HK installation -->
-    <HollowKnightRefs>E:/GOG/Hollow Knight 1.5 Modded/Hollow Knight_Data/Managed/</HollowKnightRefs>
+    <HollowKnightRefs>C:\Program Files (x86)\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\</HollowKnightRefs>
     <!-- Change this to the path where you want the ready-to-upload exports to be -->
-    <ExportDir>E:/Github_Projects/__Exports/</ExportDir>
+    <ExportDir>C:\Users\txxcu\HK Modding\exports\</ExportDir>
     <!-- Uncomment this to generate a documentation file to be included with the mod -->
     <!--<DocumentationFile>$(OutputPath)/$(AssemblyTitle).xml</DocumentationFile>-->
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>$safeprojectname$</RootNamespace>
-    <AssemblyName>$safeprojectname$</AssemblyName>
+    <RootNamespace>First_Mod</RootNamespace>
+    <AssemblyName>First_Mod</AssemblyName>
     <TargetFramework>net472</TargetFramework>
-    <AssemblyTitle>$safeprojectname$</AssemblyTitle>
-    <Product>$safeprojectname$</Product>
+    <AssemblyTitle>First_Mod</AssemblyTitle>
+    <Product>First_Mod</Product>
     <Description>A Hollow Knight Mod</Description>
-    <Copyright>Copyright ©  $year$</Copyright>
+    <Copyright>Copyright ©2023</Copyright>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
     <OutputPath>bin\$(Configuration)\</OutputPath>

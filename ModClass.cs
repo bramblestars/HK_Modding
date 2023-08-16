@@ -5,11 +5,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UObject = UnityEngine.Object;
 
-namespace $safeprojectname$
+namespace First_Mod
 {
-    public class $safeprojectname$ : Mod
+    public class First_Mod : Mod
     {
-        internal static $safeprojectname$ Instance;
+        internal static First_Mod Instance;
 
         //public override List<ValueTuple<string, string>> GetPreloadNames()
         //{
